@@ -1,0 +1,50 @@
+H1{
+color:red;
+}
+input{
+	padding:10px;
+	font-size:inherit;
+}
+input[type="text"]
+{
+	display:block;
+	margin-bottom:25px;
+	width:30%;
+	border:2px solid steelblue;
+}
+input[type="email"]
+{
+	display:block;
+	margin-bottom:25px;
+	width:30%;
+	border:2px solid steelblue;
+}
+input[type="password"]
+{
+	display:block;
+	margin-bottom:25px;
+	width:30%;
+	border:2px solid steelblue;
+}
+input[type="radio"]
+{
+	margin:0 8px 25px 18px
+}
+input[type="submit"]
+{
+	width:344px;
+	height:45px;
+	border:none;
+	background:steelblue;
+	color:white;
+}
+input:focus
+{
+	background:white;
+	input[type="radio"]
+	{
+		font weight:bold;
+		font size:18px;
+	}
+}
+
